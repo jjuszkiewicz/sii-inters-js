@@ -1,0 +1,29 @@
+.container {
+  width: max(calc(100vw - 200px), 800px);
+  margin: auto;
+  display: flex;
+}
+.products {
+  flex: 3 3 600px;
+  border:1px solid black;
+  padding: 30px;
+  border-radius: 4px;
+}
+
+.product {
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.product .product__amount-input {
+  width: 50px;
+}
+
+.cart {
+  flex: 1 1 200px;
+  border: 1px solid black;
+  padding: 30px;
+  border-radius: 4px;
+}
